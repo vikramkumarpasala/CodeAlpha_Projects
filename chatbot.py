@@ -1,18 +1,5 @@
-#!/usr/bin/env python3
-"""
-Basic Rule-Based Chatbot in Python
-----------------------------------
-Demonstrates core Python concepts:
-- Functions (def)
-- Loops (while)
-- Conditional Logic (if, elif, else)
-- Input and Output (input(), print())
-"""
-
+#!/usr/bin/env python
 def get_bot_response(user_input):
-    """
-    Returns a chatbot response based on rules using if-elif statements.
-    """
     # Normalize input to lowercase to handle capitalization like 'Hello' or 'BYE'
     cleaned_input = user_input.strip().lower()
     
